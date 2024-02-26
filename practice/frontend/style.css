@@ -1,0 +1,226 @@
+/* .html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 229, 209);
+    ;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 229, 209);
+    ;
+}
+
+.nav h {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+} */
+
+/* .nav img{
+    margin-top:5px;
+    margin-left:20px;
+    height:50px;
+    width:50px;
+    aspect-ratio: 1/1;
+} */
+/* .nav {
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right:20px;
+    background-color: black;
+    opacity: 50%;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-top: 5px;
+    list-style: none;
+    font-weight: bold;
+    display: inline-block
+} */
+
+/* NAVIGATION BAR ANIMATION STYLING */
+
+/*   
+li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: yellowgreen;
+    transition: 0.5s linear;
+  }
+  li a:hover {
+    color: #fff;
+  }
+  li a:hover:after {
+    width: 100%;
+  } */
+
+/* STYLING FOR PROFILE */
+/* li img {
+    height: 19px;
+    width: 19px;
+    aspect-ratio: 1/1;
+} */
+
+/* BODY PART CSS */
+/* .hero {
+    background-color: rgb(246, 229, 209);
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .hero img {
+    margin-bottom: 10px;
+    height: 400px;
+    width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    margin-right: 40px;
+    margin-top: 35px
+}
+
+.hero pre {
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    color: black;
+    margin-left: -20px;
+    margin-top: 50px;
+} */
+
+/* BUTTON STYLING */
+/* button {
+    background-color: rgb(241, 187, 88);
+    border-radius: 6px;
+    padding: 8px 22px;
+    filter: drop-shadow(0 0 10px black);
+} */
+
+/* button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+} */
+
+/* FOOTER STYLING */
+/* footer {
+    padding: 50px;
+    background-color: black;
+    opacity: 40%;
+} */
+
+/* IMAGE ANIMATION */
+/* .mainimage img {
+    filter: drop-shadow(0 0 10px orange);
+    animation: glow 2s alternate infinite;
+}
+
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 10px orange);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 10px orange);
+    }
+} */
+
+/* STYLING FOR LOGIN */
+/* .log a{
+    text-decoration: none;
+   
+} */
+
+/* .log button {
+    background-color:rgb(241, 187, 88);
+    border-radius: 6px;
+    padding: 8px 65px;
+    margin-top: 20px; */
+
+
+    /* filter:drop-shadow(0 0 10px black); */
+    /* padding-right: 100px; */
+/* } */
+
+/* .log button a {
+    margin-left: 80%;
+    
+} */
+
+/* 
+.log {
+    margin-top: 80px;
+    margin-left: 35%;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.log form {
+    align-items: center;
+    margin-left: 15%;
+    
+} */
+
+/* .submit{
+    background-color:rgb(243, 184, 73);
+} */
+
+/* 
+.alert a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top:50px;
+    margin-left: 33%;
+    margin-top: 60px;
+    font-size: 70px;
+}
+.alert p{
+    color:green;
+    margin-left:45%;
+    font-weight:bold;
+} */
+
+/* about.php */
+/* .box {
+    margin-left:39%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    border-color:rgb(241, 187, 88);
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+} */
+/* .nav li:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  } */
+  /* STYLING OF LOGO */
+  /* .ig{
+    height:85px;
+    aspect-ratio: 1,1;
+    margin-left:25px;
+    margin-top:-10px;
+} */

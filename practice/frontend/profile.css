@@ -1,0 +1,270 @@
+.html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 229, 209);
+    font-family: sans-serif;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 229, 209);
+    ;
+}
+
+/* .nav h {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+} */
+li img{
+    height:23px;
+    aspect-ratio: 1,1;
+    /* margin-left:25px;
+    margin-top:-10px; */
+    margin-left:5px;
+}
+.nav {
+  
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right:0px;
+    background-color: black;
+    opacity: 80%;
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap:8px 30px;
+    align-items: center;
+}
+li {
+    margin-top: 5px;
+    list-style: none;
+    font-weight: bold;
+    display: inline-block
+}
+
+li a{
+        
+    margin-right:20px;
+    text-decoration: none;
+    color:white;
+    transition: 0.2s;
+    font-size: 17px;
+}
+li a:hover{
+    color:rgb(241, 187, 88);
+}
+li a:hover:after{
+    width:100%;
+}
+/* BODY PART CSS */
+.hero {
+    background-color: rgb(246, 229, 209);
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* STYLING FOR LOGIN */
+.log a{
+    text-decoration: none;
+   
+}
+
+
+.log button {
+    background-color:rgb(241, 187, 88);
+    border-radius: 6px;
+    padding: 8px 65px;
+    margin-top: 20px;
+
+
+    /* filter:drop-shadow(0 0 10px black); */
+    /* padding-right: 100px; */
+}
+.log button:hover{
+    background-color: lightgrey;
+}
+/* LOGO STYLING */
+.ig{
+    height:85px;
+    aspect-ratio: 1,1;
+    margin-left:25px;
+    margin-top:-10px;
+}
+/* STYLING OF DROP DOWN */
+
+.drop{
+    position: relative;
+}
+.exam{
+    display:none;
+    position: absolute;
+    min-width: 50px;
+    z-index: 1;
+    margin-left:3px;
+}
+.exam a{
+    background-color: white;
+    display:block;
+ color:black;
+ font-style: bold;
+padding-left:15px;
+padding-right:15px;
+  
+}
+.drop:hover .exam{
+display:block;
+}
+.exam a:hover{
+    background-color:black;
+}
+.drop2{
+    position: relative;
+}
+.result{
+display:none;
+position: absolute;
+min-width: 50px;
+z-index: 1;
+margin-left:3px;
+}
+.result a{
+background-color: white;
+display:block;
+color:black;
+font-style: bold;
+padding-left:15px;
+padding-right:15px;
+}
+.drop2:hover .result{
+display:block;
+}
+.result a:hover{
+    background-color:black;
+}
+.exambtn{
+    border:none;
+    background-color: transparent;
+    color:white;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:medium
+}
+.dropbutton{
+    border:none;
+    background-color: transparent;
+    color:white;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:medium;
+    margin-left: 15px;
+}
+
+/* STYLING FOR PROFILE INFO USING TABLE */
+.tabledata{
+    margin-top:50px;
+    margin-left:35%;
+    width:400px;
+    height:fit-content;
+    background-color:white;
+    box-shadow: 0 0 10px black;
+    border-radius:10px;
+    align-items: center;
+    font-weight: bold;
+}
+.center {
+    margin-left: 30%;
+    margin-right: auto;
+   
+  }
+  .image{
+      margin-left:60px
+  }
+
+/* STYLING OF LOGOUT BUTTON */
+.logout {
+    background-color:rgb(241, 187, 88);
+  padding-left:50px;
+  padding-right:50px;
+    border-radius: 7px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+    margin-left:29%;
+    margin-bottom: 10px;
+    border-style:none;
+    filter:drop-shadow(0 0 3px black);
+}
+.logout:hover{
+background-color: lightgrey;
+}
+.logout a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+}
+.logout a:hover{
+    color:black;
+}
+
+/* STYLING OF FOOTER */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+  
+    color:white;
+    margin:auto;
+}
+.row{
+    display:flex; 
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 12px ;
+    text-decoration: none;
+    list-style: none;
+}
+.fdata{
+    background-color: black;
+    padding:10px 0;
+    opacity:80%;
+    margin-top:200px;
+}
+.footer-col{
+    width:25%;
+    padding:0 15px;
+
+}
+.footer-col h4{
+    font-size: 13px;
+    color:#ffffff;
+    margin-bottom: 20px;
+}
+ /* .footer-col h4:before{
+    content:"";
+    position:absolute;
+    background-color: rgb(241, 187, 88);
+    left:0;
+    bottom:-85px;
+    height:2px;
+    box-sizing: border-box;
+    width: 50px;
+} */
+.footer-col h4:hover{
+    color:rgb(241, 187, 88);
+}

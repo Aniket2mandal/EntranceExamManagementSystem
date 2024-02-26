@@ -1,0 +1,320 @@
+/* .nav li a:hover{
+    background-color: red;
+  display: block;
+}
+li a:hover{
+    height:30px;
+    transform:scale(1.2);
+} */
+*
+.html,
+body {
+    /* height: 100%;
+    width: 100%; */
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(246, 229, 209);
+/* background-color: white; */
+font-family: sans-serif;
+    
+}
+
+/* LOGO STYLING */
+/* .ig{
+    height:85px;
+    aspect-ratio: 1,1;
+    margin-left:25px;
+    margin-top:-10px;
+} */
+
+
+.main {
+    height: 100%;
+    
+    background-color: rgb(246, 229, 209);
+    /* background-color: white; */
+    margin: 0;
+   
+}
+
+.nav h {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* .nav img{
+    margin-top:5px;
+    margin-left:20px;
+    height:50px;
+    width:50px;
+    aspect-ratio: 1/1;
+} */
+.nav {
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -0px;
+    background-color: black;
+    opacity: 80%;
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav li {
+    margin-top: 5px;
+    list-style: none;
+    font-weight: bold;
+    display: inline-block
+}
+
+li a {
+    transition: 0.2s;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+/* NAVIGATION BAR ANIMATION STYLING */
+
+
+ /* ul a:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(241, 187, 88);
+    height:3px;
+    width:0%;
+   bottom:450px;
+   transition:0.2s;
+   left:0;
+
+} */
+ul a:hover{
+    color:rgb(241, 187, 88);
+}
+ul a:hover:after{
+    width:100%;
+}
+
+
+/* STYLING FOR PROFILE */
+/* li img {
+    height: 19px;
+    width: 19px;
+    aspect-ratio: 1/1;
+} */
+
+
+
+/* BODY PART CSS */
+.hero {
+    background-color: rgb(246, 229, 209);
+    /* background-color: white; */
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero img {
+    margin-bottom: 10px;
+    height: 400px;
+    width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    margin-right: 40px;
+    margin-top: 35px
+}
+
+.hero pre {
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    color: black;
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
+/* BUTTON STYLING */
+button {
+    background-color: rgb(241, 187, 88);
+    border-radius: 6px;
+    padding: 8px 22px;
+    border-style:none;
+    filter: drop-shadow(0 0 10px black);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+
+/* IMAGE ANIMATION */
+.mainimage img {
+    filter: drop-shadow(0 0 10px orange);
+    animation: glow 2s alternate infinite;
+}
+
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 10px orange);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 10px orange);
+    }
+}
+
+/* STYLING FOR LOGIN */
+.log a {
+    text-decoration: none;
+
+}
+
+.log button {
+    background-color: rgb(241, 187, 88);
+    border-radius: 6px;
+    padding: 8px 65px;
+    margin-top: 20px;
+
+
+    /* filter:drop-shadow(0 0 10px black); */
+    /* padding-right: 100px; */
+}
+.log button :hover{
+background-color: lightgrey;
+}
+button a:hover{
+    color:black;
+  
+}
+/* .log button a {
+    margin-left: 80%;
+    
+} */
+
+
+.log {
+    margin-top: 80px;
+    margin-left: 35%;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.log form {
+    align-items: center;
+    margin-left: 15%;
+
+}
+
+/* .submit{
+    background-color:rgb(243, 184, 73);
+} */
+
+
+
+
+/* about.php */
+.box {
+    margin-left: 39%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    border-color: rgb(241, 187, 88);
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+/* LOGO STYLING */
+.ig {
+    height: 85px;
+    aspect-ratio: 1, 1;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+/* STYLING OF FOOTER */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+  
+    color:white;
+    margin:auto;
+}
+.row{
+    display:flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 12px ;
+}
+.fdata{
+    background-color: black;
+    padding:10px 0;
+    opacity:80%;
+    margin-top:100px;
+}
+.footer-col{
+    width:30%;
+    padding:0 15px;
+
+}
+.footer-col h4{
+    font-size: 13px;
+    color:#ffffff;
+    margin-bottom: 20px;
+    
+}
+/* .footer-col h4:before{
+    content:"";
+    position:absolute;
+    background-color: rgb(241, 187, 88);
+    left:0;
+    bottom:-85px;
+    height:2px;
+    box-sizing: border-box;
+    width: 50px;
+} */
+.footer-col h4:hover{
+    color:rgb(241, 187, 88);
+}
+/* STYLLING OF MARQUEE */
+marquee{
+    margin-top:30px;
+    box-sizing: border-box;
+    background-color:rgb(241, 187, 88);
+    opacity:55%;
+    height:80px;
+    
+}
+marquee h1{
+    color:white;
+    font-family: sans-serif;
+    margin-top:22px;
+    /* font-weight: bold; */
+}

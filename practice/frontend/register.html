@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>
+        project
+    </title>
+</head>
+<link rel="stylesheet" href="register.css">
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <!-- <img src="LOGO.png"> -->
+            <img class="ig" src="logo.png">
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="about.html">ABOUT</a> </li>
+                <li><a href="login.php">LOGIN</a> </li>
+            </ul>
+
+        </div>
+        <hr>
+        <div class="logg">
+            <form action="register.php" method="post" enctype="multipart/form-data">
+                <div class="reg">
+                    <p>REGISTER NOW</p>
+                </div><br>
+                <!-- Firstname: -->
+                <input type="text" required id="fnam" required name="fnam" placeholder="firstname"><br><br>
+                <!-- Lastname: -->
+                <input type="text" required id="lnam" required name="lnam" placeholder="lastname"><br><br>
+                <!-- Email:<br> -->
+                <input type="email" required id="emai" required name="emai" placeholder="Email"><br><br>
+                <!-- Password: -->
+                <input type="password" required id="pass" required name="pass" placeholder="password"><br><br>
+                <!-- confirm Password: -->
+                <input type="password" required id="pword" required name="pword" placeholder="confirm password"><br><br>
+
+                <select name="Identity" id="identify">
+                    <option value="user">user</option>
+                    <option value="Admin">Admin</option>
+                </select><br><br>
+                <!-- <input type="file" required id="my_image" required name="my_image"><br><br> -->
+                <button type="submit">SIGNUP</button>
+
+            </form>
+
+        </div>
+
+    </div>
+    <footer class="fdata">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li>Phone :9824790012</li>
+                        <li>Email :aniketmandal778@gmail.com</li>
+                        <li>Webiste:www.EEMS.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FOLLOW US</h4>
+                    <ul>
+                        <li>Facebook :EEMS page</li>
+                        <li>Instagram :EEMS page</li>
+                        <li>LinkedIn :EEMS</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>GET HELP</h4>
+                    <ul>
+                        <li>www.EEMS.com</li>
+                        <li>message</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
