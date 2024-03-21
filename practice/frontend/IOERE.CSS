@@ -1,0 +1,352 @@
+/* .nav li a:hover{
+    background-color: red;
+  display: block;
+}
+li a:hover{
+    height:30px;
+    transform:scale(1.2);
+} */
+.html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 229, 209);
+    font-family: sans-serif;
+}
+/* LOGO STYLING */
+/* .ig{
+    height:85px;
+    aspect-ratio: 1,1;
+    margin-left:25px;
+    margin-top:-10px;
+} */
+
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 229, 209);
+    ;
+}
+
+/* .nav h {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+} */
+
+/* .nav img{
+    margin-top:5px;
+    margin-left:20px;
+    height:50px;
+    width:50px;
+    aspect-ratio: 1/1;
+} */
+li img{
+    height:23px;
+    aspect-ratio: 1,1;
+    /* margin-left:25px;
+    margin-top:-10px; */
+    margin-left:5px;
+}
+.nav {
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right:0px;
+    background-color: black;
+    opacity: 80%;
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap:8px 30px;
+    align-items: center;
+}
+
+li {
+    margin-top: 5px;
+    list-style: none;
+    font-weight: bold;
+    display: inline-block
+}
+
+li a{
+        
+    margin-right:20px;
+    text-decoration: none;
+    color:white;
+    transition: 0.2s;
+    font-size: 17px;;
+}
+/* li a:after{
+content:"";
+position:absolute;
+background-color: rgb(241, 187, 88);
+left:0;
+width:0%;
+height:3px;
+transition: 0.2s;
+} */
+li a:hover{
+    color:rgb(241, 187, 88);
+}
+li a:hover:after{
+    width:100%;
+}
+
+
+/* BODY PART CSS */
+.hero {
+    background-color: rgb(246, 229, 209);
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* BUTTON STYLING */
+/* button {
+    background-color: rgb(241, 187, 88);
+    border-radius: 6px;
+    padding: 8px 22px;
+    filter: drop-shadow(0 0 10px black);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+} */
+
+
+
+
+
+/* STYLING FOR LOGIN
+.log a{
+    text-decoration: none;
+   
+}
+
+.log button {
+    background-color:rgb(241, 187, 88);
+    border-radius: 6px;
+    padding: 8px 65px;
+    margin-top: 20px;
+
+
+    filter:drop-shadow(0 0 10px black); */
+    /* padding-right: 100px;
+} */
+
+
+
+/* .log {
+    margin-top: 80px;
+    margin-left: 35%;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.log form {
+    align-items: center;
+    margin-left: 15%;
+    
+} */
+
+
+/* about.php */
+/* .box {
+    margin-left:39%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    border-color:rgb(241, 187, 88);
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+} */
+/* LOGO STYLING */
+.ig{
+    height:85px;
+    aspect-ratio: 1,1;
+    margin-left:25px;
+    margin-top:-10px;
+}
+/* SELECT DROP DOWN STYLING */
+/* select{
+    margin-right:20px;
+    background-color: rgb(241, 187, 88);
+    border:0;
+} */
+
+
+/* STYLING OF DROP DOWN */
+
+.drop{
+    position: relative;
+}
+.exam{
+    display:none;
+    position: absolute;
+    min-width: 50px;
+    z-index: 1;
+}
+.exam a{
+    background-color: white;
+    display:block;
+ color:black;
+ font-style: bold;
+padding-left:15px;
+padding-right:15px;
+  font-family:sans-serif;
+}
+.drop:hover .exam{
+display:block;
+}
+.exam a:hover{
+    background-color:black;
+}
+.drop2{
+    position: relative;
+}
+.result{
+    display:none;
+    position: absolute;
+    min-width: 50px;
+    z-index: 1;
+}
+.result a{
+    background-color: white;
+    display:block;
+ color:black;
+ font-style: bold;
+padding-left:15px;
+padding-right:15px;
+font-family:sans-serif;
+}
+.drop2:hover .result{
+display:block;
+}
+.result a:hover{
+    background-color:black;
+}
+.exambtn{
+    border:none;
+    background-color: transparent;
+    color:white;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:medium;
+}
+.dropbutton{
+    border:none;
+    background-color: transparent;
+    color:white;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:medium;
+    margin-left: 15px;
+}
+/* STYLING OF FOOTER */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+  
+    color:white;
+    margin:auto;
+}
+.row{
+    display:flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 12px ;
+}
+.fdata{
+    background-color: black;
+    padding:10px 0;
+    opacity:80%;
+    margin-top:500px;
+}
+.footer-col{
+    width:30%;
+    padding:0 15px;
+
+}
+.footer-col h4{
+    font-size: 13px;
+    color:#ffffff;
+    margin-bottom: 20px;
+    
+}
+/* .footer-col h4:before{
+    content:"";
+    position:absolute;
+    background-color: rgb(241, 187, 88);
+    left:0;
+    bottom:-85px;
+    height:2px;
+    box-sizing: border-box;
+    width: 50px;
+} */
+.footer-col h4:hover{
+    color:rgb(241, 187, 88);
+}
+
+/* STYLLING OF MARQUEE */
+marquee{
+    margin-top:25px;
+    box-sizing: border-box;
+    background-color:rgb(241, 187, 88);
+    opacity:55%;
+    height:90px;
+    
+}
+marquee h1{
+    margin-top:22px;
+    color:white;
+    font-family: sans-serif;
+    
+    /* font-weight: bold; */
+}
+.admin{
+    margin-top:10px;
+   font-size: medium; 
+   text-align: center;
+   font-weight: lighter;
+  background-color: white;
+}
+.alb img{
+    height:500px;
+    width:500px;
+    margin-top:50px;
+    margin-left:28%;
+}
+/* FOR SCROLLING */
+.fullbody{
+    height:calc(100vh - 70px);
+    overflow: scroll;
+}
+.fullbody::-webkit-scrollbar{
+    width:0;
+}
